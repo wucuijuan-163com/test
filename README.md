@@ -12,4 +12,3 @@ git status                   --查看状态
 1.git add                      --提交到暂存区
 2.git commit                    --提交到本地分支\
 3.git push                      --推送到git\
-## 解决冲突

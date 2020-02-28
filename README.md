@@ -24,6 +24,7 @@ git status                   --查看状态
 4.git config user.name "wucuijuan-163com"       --修改账号名称
 ## 克隆代码
 1.git clone 克隆代码地址       --克隆代码到本地
+2.git init                      --初始化本地仓库
 ## 提交代码
 1.git add                      --提交到暂存区
 2.git commit                    --提交到本地分支\

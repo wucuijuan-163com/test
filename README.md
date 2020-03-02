@@ -61,9 +61,16 @@ git status --查看状态
 2.git reflog --找到最近拉取的代码的指针\
 3.git reset --hard 最近拉取代码的指针 --回到最近拉取的代码
 
-## 标签（Tag）管理  （-name：标签名）
-1.git tag                       --查看所有标签
-2.git tag name                  --创建标签
-3.git tag -a name -m "comment"  --指定提交信息
-4.git push origin name          --标签发布（推送到git）
-5.git tag -d name               --删除标签
+## 标签（Tag）管理 （name：标签名）
+
+1.git tag --查看所有标签\
+2.git tag name --创建标签\
+3.git tag -a name -m "comment" --指定提交信息\
+4.git push origin name --标签发布（推送到 git）\
+5.git tag -d name --删除标签
+
+## 分支管理 （name：分支名）
+
+1.git branch --查看所有分支\
+2.git branch name --新建分支\
+3.git checkout name --切换分支\a

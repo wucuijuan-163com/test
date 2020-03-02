@@ -31,6 +31,8 @@ git status                                                  --查看状态
 3.git push                                                  --推送代码到git库
 ### 拉取代码
 1.git pull                      --拉取git库代码
+### 检出分支
+1.git chekout 
 ## 解决冲突 
 1.拉取最新代码到本地      --git pull\
 2.本地解决冲突后，重新提交代码     
@@ -39,6 +41,5 @@ git status                                                  --查看状态
 2.git reflog                    --找到最近拉取的代码的指针\
 3.git reset --hard 最近拉取代码的指针   --回到最近拉取的代码 
 ## 分支开发与合并
-14324234234324234324324tyutyut
-1.
+
 

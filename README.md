@@ -70,6 +70,7 @@ git status --查看状态
 5.git tag -d name --删除标签
 
 ## 分支管理 （name：分支名）
+***********************************
 
 1.git branch --查看所有分支\
 2.git branch name --新建分支\

@@ -13,20 +13,22 @@
     3.:q退出编辑，如果文本内容被修改过，则撒法f会报错\
     4.:q!强制退出，如修改过，会丢弃本次的修改\
     5.:x/:wq 退出编辑并保存
+ 
+## GIT配置信息
+1.git config --global user.name 'wucuijuan-163com'          --配置账号名称\
+2.git config --global user.email '123456@163.com'           --配置邮箱\
+3.git config user.name/user.email                           --查看名称/邮箱\
+4.git config --list                                         --查看所有配置信息\
+5.git config user.name/user.email "wucuijuan-163com"        --修改名称/邮箱
 ## 状态
-git status                   --查看状态 
-## 配置信息
-1.git config user.name          --查看账号名称\
-2.git config user.email         --查看邮箱\
-3.git config --list             --查看所有配置信息\
-4.git config user.name "wucuijuan-163com"       --修改账号名称
+git status                                                  --查看状态
 ## 克隆代码
-1.git clone     --克隆代码到本地\
-2.git init                   --初始化本地仓库
+1.git clone '克隆代码地址'                                   --克隆代码到本地\
+2.git init                                                  --初始化本地仓库
 ## 提交代码
-1.git add                      --提交到暂存区\
-2.git commit                    --提交到本地分支\
-3.git push                      --推送代码到git库
+1.git add                                                   --添加到暂存区\
+2.git commit/git commit -m '提交信息'                        --提交到本地分支\
+3.git push                                                  --推送代码到git库
 ### 拉取代码
 1.git pull                      --拉取git库代码
 ## 解决冲突 

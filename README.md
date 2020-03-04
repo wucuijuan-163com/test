@@ -71,10 +71,14 @@ git status --查看状态
 
 ## 分支管理 （name：分支名）
 
-1.git branch --查看所有分支及当前分支\
+1.git branch -al --查看所有分支(本地及远程分支)及当前所在分支\
 2.git branch name --新建分支\
 3.git checkout name --切换分支\
 4.git branch -d name --删除分支
+
+## 本地分支与远程分支关联
+1.git checkout -b dev   --新建并切换到本地dev分支
+2.git pull origin dev   --拉取远程origin/dev分支，并绑定本地dev分支
 
 ## 合并代码到 master 分支
 

@@ -1,0 +1,8 @@
+https://www.jianshu.com/p/a0959e056125    搭建地址
+1.使用v-cli3搭建项目
+2.使用vant组件写静态页面 npm i vant -S， 在main.js 中引入vant
+（//main.js
+  import Vant from 'vant'
+  import 'vant/lib/index.css';
+  import 'vant/lib/icon/local.css';）
+3.

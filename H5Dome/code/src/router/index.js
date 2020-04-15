@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
 Vue.use(VueRouter)
-
 function load(component) {
   return resolve => require([`@views/${component}`],resolve)
 }
@@ -22,6 +20,16 @@ const routes = [
     path: '/Mine',
     name: 'Mine',
     component: load('mine/index')
+  },
+  {
+    path: '/password',    //设置密码/重置密码
+    name: 'password',
+    component: load('mine/password/index')
+  },
+  {
+    path: '/forgetpassword',    //忘记密码
+    name: 'forgetpassword',
+    component: load('mine/password/forgetpassword')
   },
   
 ]

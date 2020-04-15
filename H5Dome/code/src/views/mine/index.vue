@@ -3,7 +3,7 @@
     <NavigationBar></NavigationBar>
     <div class="main">
       <van-cell-group>
-        <van-cell title="支付密码" is-link />
+        <van-cell title="支付密码" is-link @click="onPassword" />
       </van-cell-group>
     </div>
     <FooterTabbar></FooterTabbar>
@@ -19,6 +19,16 @@ export default {
     return{
       passwordState:'set'   //支付密码状态：set：设置， modify：修改，forget：忘记
     }
-  }
+  },
+  methods: {
+    onPassword(){
+      this.$router.push({
+        path:'/password',
+        query:{
+          passwordState:this.passwordState
+        }
+      })
+    }
+  } 
 };
 </script>
